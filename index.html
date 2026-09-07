@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #F5F7FC; font-family: 'Barlow', sans-serif; color: #10203F; }
+  a { color: #1A4FD6; text-decoration: none; }
+  a:hover { color: #0F3AA8; }
+  ::selection { background: #1A4FD6; color: #fff; }
+</style>
+</helmet>
+
+<nav style="position:sticky;top:0;z-index:50;background:#071331;display:flex;align-items:center;justify-content:space-between;padding:14px 32px;gap:24px;border-bottom:1px solid rgba(255,255,255,0.08)">
+  <a href="#top" style="display:flex;align-items:center;gap:12px;color:#fff">
+    <img src="uploads/Soccer Training Logo.png" alt="DM logo" style="height:44px;width:auto">
+    <span style="display:flex;flex-direction:column;line-height:1">
+      <span style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:0.06em;text-transform:uppercase">Dylan Morrone</span>
+      <span style="font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#7FA0F2;margin-top:3px">Pro Training</span>
+    </span>
+  </a>
+  <div style="display:flex;align-items:center;gap:26px;flex-wrap:wrap;justify-content:flex-end">
+    <a href="#programs" style="color:#C8D4F2;font-size:14px;font-weight:600;letter-spacing:0.04em" style-hover="color:#fff">Programs</a>
+    <a href="#about" style="color:#C8D4F2;font-size:14px;font-weight:600;letter-spacing:0.04em" style-hover="color:#fff">About</a>
+    <a href="#faq" style="color:#C8D4F2;font-size:14px;font-weight:600;letter-spacing:0.04em" style-hover="color:#fff">FAQ</a>
+    <a href="#book" style="background:#1A4FD6;color:#fff;padding:10px 20px;border-radius:6px;font-size:14px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase" style-hover="background:#2A5FEA;color:#fff">Book a Session</a>
+  </div>
+</nav>
+
+<header id="top" style="background:linear-gradient(160deg,#071331 0%,#0B2158 60%,#0F2E7E 100%);color:#fff;padding:72px 32px 88px;display:flex;justify-content:center">
+  <div style="display:flex;align-items:center;gap:64px;max-width:1080px;width:100%;flex-wrap:wrap;justify-content:center">
+    <div style="flex:1 1 420px;min-width:300px">
+      <p style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#7FA0F2">South Orange County · Private Soccer Training</p>
+      <h1 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(44px,6vw,72px);line-height:1.02;text-transform:uppercase;letter-spacing:0.01em">Train with purpose.<br>Play with confidence.</h1>
+      <p style="margin:20px 0 32px;font-size:18px;line-height:1.6;color:#C8D4F2;max-width:520px;text-wrap:pretty">Individual and small-group soccer training for youth and high school players. Every session is built around your game — technical skill, decision-making, and the habits that carry onto the field.</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap">
+        <a href="#book" style="background:#1A4FD6;color:#fff;padding:15px 30px;border-radius:6px;font-weight:700;font-size:16px;letter-spacing:0.05em;text-transform:uppercase" style-hover="background:#2A5FEA;color:#fff">Book a Session</a>
+        <a href="#onboard" style="border:2px solid rgba(255,255,255,0.35);color:#fff;padding:13px 28px;border-radius:6px;font-weight:700;font-size:16px;letter-spacing:0.05em;text-transform:uppercase" style-hover="border-color:#fff;color:#fff">New Client Intake</a>
+      </div>
+    </div>
+    <div style="flex:0 1 340px;display:flex;justify-content:center">
+      <img src="uploads/Soccer Training Logo.png" alt="Dylan Morrone Professional Trainer crest" style="width:100%;max-width:340px;height:auto;filter:drop-shadow(0 24px 48px rgba(0,0,0,0.45))">
+    </div>
+  </div>
+</header>
+
+<section id="programs" style="padding:80px 32px;display:flex;justify-content:center">
+  <div style="max-width:1080px;width:100%">
+    <p style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#1A4FD6">Programs</p>
+    <h2 style="margin:0 0 40px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase;color:#071331">Training built for every level</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px">
+      <div style="background:#fff;border:1px solid #E2E8F6;border-radius:10px;padding:32px 28px;box-shadow:0 2px 8px rgba(7,19,49,0.05)">
+        <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#1A4FD6">1-on-1</p>
+        <h3 style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;text-transform:uppercase;color:#071331">Private Training</h3>
+        <p style="margin:0;font-size:15px;line-height:1.6;color:#46587F">A fully individualized session plan targeting your technical weaknesses and building on your strengths. First touch, finishing, ball mastery, speed of play.</p>
+      </div>
+      <div style="background:#fff;border:1px solid #E2E8F6;border-radius:10px;padding:32px 28px;box-shadow:0 2px 8px rgba(7,19,49,0.05)">
+        <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#1A4FD6">2–6 Players</p>
+        <h3 style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;text-transform:uppercase;color:#071331">Small Group</h3>
+        <p style="margin:0;font-size:15px;line-height:1.6;color:#46587F">Competitive, game-realistic reps with players at a similar level. Train with teammates or friends and push each other every session.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="background:#fff;border-top:1px solid #E2E8F6;border-bottom:1px solid #E2E8F6;padding:80px 32px;display:flex;justify-content:center">
+  <div style="display:flex;align-items:flex-start;gap:56px;max-width:1080px;width:100%;flex-wrap:wrap;justify-content:center">
+    <div style="flex:0 1 360px;min-width:280px">
+      <div style="background:linear-gradient(160deg,#0B2158,#1A4FD6);border-radius:12px;padding:18px 18px 0;overflow:hidden">
+        <img src="uploads/Trainer Headshot.png" alt="Dylan Morrone" style="width:100%;height:auto;display:block">
+      </div>
+    </div>
+    <div style="flex:1 1 420px;min-width:300px">
+      <p style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#1A4FD6">About</p>
+      <h2 style="margin:0 0 18px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase;color:#071331">Dylan Morrone</h2>
+      <p style="margin:0 0 16px;font-size:16px;line-height:1.7;color:#46587F;text-wrap:pretty">I grew up playing competitive soccer in Orange County, California, developing my game with several respected local clubs — including West Coast FC, Strikers FC, and Pateadores Academy.</p>
+      <p style="margin:0 0 16px;font-size:16px;line-height:1.7;color:#46587F;text-wrap:pretty">At 17, I took the next step in my career by moving to Italy to join the Paolo Rossi Academy, training in a highly competitive European environment. While there, an agent invited me to Spain to pursue opportunities with semi-professional clubs.</p>
+      <p style="margin:0 0 16px;font-size:16px;line-height:1.7;color:#46587F;text-wrap:pretty">In Spain, I trained and trialed with multiple teams before signing contracts with CD Tineo in Oviedo and CSD Arzúa in Santiago de Compostela. After roughly three years, a career-ending injury brought my playing days to an unexpected close, and I returned home to Orange County with a new purpose: to pass on the knowledge, experience, and perspective I gained to the next generation of players.</p>
+      <p style="margin:0 0 28px;font-size:16px;line-height:1.7;color:#46587F;text-wrap:pretty">Today, as a professional soccer trainer, my goal is to help young athletes sharpen their technical ability, improve their understanding of the game, build confidence, and develop the habits and mentality needed to reach their full potential — on and off the field.</p>
+      <div style="display:flex;gap:28px;flex-wrap:wrap">
+        <div><p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-size:34px;font-weight:700;color:#1A4FD6">1-on-1</p><p style="margin:2px 0 0;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#46587F">Personalized plans</p></div>
+        <div><p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-size:34px;font-weight:700;color:#1A4FD6">All levels</p><p style="margin:2px 0 0;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#46587F">Youth to high school</p></div>
+        <div><p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-size:34px;font-weight:700;color:#1A4FD6">South OC</p><p style="margin:2px 0 0;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#46587F">Local fields</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="book" style="background:linear-gradient(160deg,#071331,#0B2158);color:#fff;padding:72px 32px;display:flex;justify-content:center">
+  <div style="max-width:1080px;width:100%;display:flex;gap:48px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+    <div style="flex:1 1 420px;min-width:300px">
+      <p style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#7FA0F2">Returning clients</p>
+      <h2 style="margin:0 0 14px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase">Book your next session</h2>
+      <p style="margin:0;font-size:16px;line-height:1.7;color:#C8D4F2;max-width:480px">Already training with Dylan? Grab a time that works for you — sessions are scheduled directly through the calendar.</p>
+    </div>
+    <a href="{{ calendlyUrl }}" target="_blank" rel="noopener" style="background:#fff;color:#071331;padding:18px 36px;border-radius:8px;font-weight:700;font-size:17px;letter-spacing:0.05em;text-transform:uppercase;display:inline-flex;align-items:center;gap:10px;box-shadow:0 8px 24px rgba(0,0,0,0.3)" style-hover="background:#E8EEFC;color:#071331">Open Scheduling Calendar ↗</a>
+  </div>
+</section>
+
+<section id="onboard" style="padding:80px 32px;display:flex;justify-content:center">
+  <div style="max-width:760px;width:100%">
+    <p style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#1A4FD6">New clients</p>
+    <h2 style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase;color:#071331">New client intake</h2>
+    <p style="margin:0 0 36px;font-size:16px;line-height:1.6;color:#46587F">Tell Dylan about your player. You'll get a reply within 24 hours to set up a first evaluation session.</p>
+    <sc-if value="{{ submitted }}" hint-placeholder-val="{{ false }}">
+      <div style="background:#fff;border:1px solid #E2E8F6;border-radius:12px;padding:48px 36px;text-align:center;box-shadow:0 4px 16px rgba(7,19,49,0.06)">
+        <img src="uploads/Soccer Training Logo.png" alt="" style="height:120px;width:auto;filter:brightness(0.4) sepia(1) hue-rotate(200deg) saturate(4)">
+        <h3 style="margin:16px 0 8px;font-family:'Barlow Condensed',sans-serif;font-size:30px;font-weight:700;text-transform:uppercase;color:#071331">Request received</h3>
+        <p style="margin:0 0 24px;font-size:16px;color:#46587F">Thanks, {{ playerName }}! Dylan will reach out within 24 hours to schedule your evaluation.</p>
+        <button onClick="{{ reset }}" style="background:none;border:2px solid #1A4FD6;color:#1A4FD6;padding:10px 22px;border-radius:6px;font-weight:700;font-size:14px;letter-spacing:0.05em;text-transform:uppercase;cursor:pointer;font-family:'Barlow',sans-serif">Submit another player</button>
+      </div>
+    </sc-if>
+    <sc-if value="{{ notSubmitted }}" hint-placeholder-val="{{ true }}">
+      <div style="background:#fff;border:1px solid #E2E8F6;border-radius:12px;padding:40px 36px;box-shadow:0 4px 16px rgba(7,19,49,0.06);display:flex;flex-direction:column;gap:22px">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px">
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Player name
+            <input onInput="{{ setName }}" placeholder="Full name" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF" style-focus="border-color:#1A4FD6;outline:none">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Age
+            <input onInput="{{ setAge }}" type="number" min="5" max="19" placeholder="e.g. 14" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF" style-focus="border-color:#1A4FD6;outline:none">
+          </label>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px">
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Position
+            <select onChange="{{ setPosition }}" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF">
+              <option>Forward</option><option>Winger</option><option>Midfielder</option><option>Defender</option><option>Goalkeeper</option><option>Not sure yet</option>
+            </select>
+          </label>
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Skill level
+            <select onChange="{{ setSkill }}" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF">
+              <option>Recreational</option><option>Club / competitive</option><option>Academy / ECNL / MLS Next</option><option>High school varsity</option>
+            </select>
+          </label>
+        </div>
+        <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Goals
+          <textarea onInput="{{ setGoals }}" rows="3" placeholder="What does the player want to improve? (first touch, finishing, speed, confidence...)" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF;resize:vertical" style-focus="border-color:#1A4FD6;outline:none"></textarea>
+        </label>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <p style="margin:0;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Availability</p>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <sc-for list="{{ dayOptions }}" as="day" hint-placeholder-count="4">
+              <button onClick="{{ day.toggle }}" style="border:1px solid {{ day.border }};background:{{ day.bg }};color:{{ day.color }};padding:9px 16px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer;font-family:'Barlow',sans-serif">{{ day.label }}</button>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px">
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Preferred start date
+            <input onInput="{{ setStartDate }}" type="date" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF" style-focus="border-color:#1A4FD6;outline:none">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Preferred start time
+            <input onInput="{{ setStartTime }}" type="time" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF" style-focus="border-color:#1A4FD6;outline:none">
+          </label>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px">
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Parent / contact email
+            <input onInput="{{ setEmail }}" type="email" placeholder="you@email.com" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF" style-focus="border-color:#1A4FD6;outline:none">
+          </label>
+          <label style="display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:#071331">Phone
+            <input onInput="{{ setPhone }}" type="tel" placeholder="(949) 555-0100" style="border:1px solid #C9D4EC;border-radius:6px;padding:12px 14px;font-size:15px;font-family:'Barlow',sans-serif;color:#10203F;background:#F8FAFF" style-focus="border-color:#1A4FD6;outline:none">
+          </label>
+        </div>
+        <sc-if value="{{ hasError }}" hint-placeholder-val="{{ false }}">
+          <p style="margin:0;font-size:14px;font-weight:600;color:#C0392B;background:#FDEDEC;border:1px solid #F5C6C0;border-radius:6px;padding:10px 14px">{{ error }}</p>
+        </sc-if>
+        <button onClick="{{ submit }}" style="background:{{ submitBg }};border:none;color:#fff;padding:16px 24px;border-radius:6px;font-weight:700;font-size:16px;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;font-family:'Barlow',sans-serif;margin-top:6px" style-hover="background:#2A5FEA">{{ submitLabel }}</button>
+      </div>
+    </sc-if>
+  </div>
+</section>
+
+<section id="faq" style="background:#fff;border-top:1px solid #E2E8F6;padding:80px 32px;display:flex;justify-content:center">
+  <div style="max-width:760px;width:100%">
+    <p style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#1A4FD6">FAQ</p>
+    <h2 style="margin:0 0 32px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase;color:#071331">Common questions</h2>
+    <div style="display:flex;flex-direction:column;gap:0">
+      <sc-for list="{{ faqs }}" as="faq" hint-placeholder-count="5">
+        <div style="border-bottom:1px solid #E2E8F6">
+          <button onClick="{{ faq.toggle }}" style="width:100%;background:none;border:none;padding:20px 4px;display:flex;justify-content:space-between;align-items:center;gap:16px;cursor:pointer;text-align:left;font-family:'Barlow',sans-serif">
+            <span style="font-size:17px;font-weight:600;color:#071331">{{ faq.q }}</span>
+            <span style="font-size:22px;color:#1A4FD6;font-weight:400;flex-shrink:0">{{ faq.icon }}</span>
+          </button>
+          <sc-if value="{{ faq.open }}" hint-placeholder-val="{{ false }}">
+            <p style="margin:0;padding:0 4px 22px;font-size:15px;line-height:1.7;color:#46587F">{{ faq.a }}</p>
+          </sc-if>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<footer style="background:#071331;color:#C8D4F2;padding:48px 32px;display:flex;justify-content:center">
+  <div style="max-width:1080px;width:100%;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:14px">
+      <img src="uploads/Soccer Training Logo.png" alt="" style="height:56px;width:auto">
+      <div>
+        <p style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:18px;letter-spacing:0.06em;text-transform:uppercase;color:#fff">Dylan Morrone</p>
+        <p style="margin:2px 0 0;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:#7FA0F2">Professional Trainer</p>
+      </div>
+    </div>
+    <div style="display:flex;gap:24px;flex-wrap:wrap;align-items:center">
+      <a href="#programs" style="color:#C8D4F2;font-size:14px" style-hover="color:#fff">Programs</a>
+      <a href="#about" style="color:#C8D4F2;font-size:14px" style-hover="color:#fff">About</a>
+      <a href="#book" style="color:#C8D4F2;font-size:14px" style-hover="color:#fff">Book</a>
+      <span style="font-size:14px;color:#7FA0F2">dmprotraining.com · South Orange County, CA</span>
+    </div>
+  </div>
+</footer>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;calendlyUrl&quot;: {&quot;editor&quot;: &quot;text&quot;, &quot;default&quot;: &quot;https://calendly.com/dmprotraining&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Booking&quot;}}">
+// ===== Wiring config — replace these two values with Dylan's real ones =====
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/xbgjzppq";
+const CALENDLY_URL = "https://calendly.com/dylanmorrone23";
+// ===========================================================================
+
+class Component extends DCLogic {
+  state = {
+    submitted: false,
+    submitting: false,
+    error: "",
+    form: { name: "", age: "", position: "Forward", skill: "Recreational", goals: "", startDate: "", startTime: "", email: "", phone: "" },
+    days: {},
+    openFaq: 0
+  };
+  renderVals() {
+    const days = ["Weekday afternoons", "Weekday evenings", "Saturday", "Sunday"];
+    const faqData = [
+      { q: "Where do sessions take place?", a: "Dylan trains at public fields throughout South Orange County. The exact field is confirmed when you book, based on availability and your location." },
+      { q: "What ages do you work with?", a: "Youth players through high school, roughly ages 6 to 18. Sessions and expectations are adjusted to the player's age and level." },
+      { q: "What should my player bring?", a: "Cleats, shin guards, a ball, and water. Everything else — cones, goals, training equipment — is provided." },
+      { q: "How does the first session work?", a: "The first session is an evaluation. Dylan assesses technical ability, athleticism, and game understanding, then builds a training plan around clear goals." }
+    ];
+    const accent = "#1A4FD6";
+    const setField = (key) => (e) => {
+      const v = e.target.value;
+      this.setState(s => ({ form: { ...s.form, [key]: v } }));
+    };
+    const firstName = (this.state.form.name || "").trim().split(" ")[0];
+    const submit = async () => {
+      if (this.state.submitting) return;
+      const f = this.state.form;
+      if (!f.name.trim() || !f.email.trim()) {
+        this.setState({ error: "Please add at least the player's name and a contact email." });
+        return;
+      }
+      const availability = Object.keys(this.state.days).filter(d => this.state.days[d]).join(", ");
+      this.setState({ submitting: true, error: "" });
+      try {
+        const res = await fetch(FORMSPREE_ENDPOINT, {
+          method: "POST",
+          headers: { "Accept": "application/json", "Content-Type": "application/json" },
+          body: JSON.stringify({
+            playerName: f.name,
+            age: f.age,
+            position: f.position,
+            skillLevel: f.skill,
+            goals: f.goals,
+            availability: availability,
+            preferredStartDate: f.startDate,
+            preferredStartTime: f.startTime,
+            email: f.email,
+            phone: f.phone,
+            _subject: "New intake request — " + f.name
+          })
+        });
+        if (res.ok) this.setState({ submitted: true, submitting: false });
+        else this.setState({ submitting: false, error: "Something went wrong sending your request. Please try again." });
+      } catch (err) {
+        this.setState({ submitting: false, error: "Network error — please check your connection and try again." });
+      }
+    };
+    return {
+      submitted: this.state.submitted,
+      notSubmitted: !this.state.submitted,
+      playerName: firstName || "player",
+      calendlyUrl: CALENDLY_URL,
+      hasError: !!this.state.error,
+      error: this.state.error,
+      submitLabel: this.state.submitting ? "Sending…" : "Submit intake request",
+      submitBg: this.state.submitting ? "#7FA0F2" : "#1A4FD6",
+      setName: setField("name"),
+      setAge: setField("age"),
+      setPosition: setField("position"),
+      setSkill: setField("skill"),
+      setGoals: setField("goals"),
+      setStartDate: setField("startDate"),
+      setStartTime: setField("startTime"),
+      setEmail: setField("email"),
+      setPhone: setField("phone"),
+      submit: submit,
+      reset: () => this.setState({
+        submitted: false, submitting: false, error: "",
+        form: { name: "", age: "", position: "Forward", skill: "Recreational", goals: "", startDate: "", startTime: "", email: "", phone: "" },
+        days: {}
+      }),
+      dayOptions: days.map((label) => {
+        const on = !!this.state.days[label];
+        return {
+          label,
+          bg: on ? accent : "#F8FAFF",
+          color: on ? "#fff" : "#10203F",
+          border: on ? accent : "#C9D4EC",
+          toggle: () => this.setState(s => ({ days: { ...s.days, [label]: !s.days[label] } }))
+        };
+      }),
+      faqs: faqData.map((f, i) => {
+        const open = this.state.openFaq === i;
+        return {
+          q: f.q, a: f.a, open,
+          icon: open ? "−" : "+",
+          toggle: () => this.setState({ openFaq: open ? -1 : i })
+        };
+      })
+    };
+  }
+}
+</script>
+</body>
+</html>
