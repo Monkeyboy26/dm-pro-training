@@ -42,7 +42,7 @@
   .card p { margin:0; font-size:15px; line-height:1.6; color:#46587F; }
   .kicker { margin:0 0 6px; font-size:12px; font-weight:700; letter-spacing:0.2em; text-transform:uppercase; color:#1A4FD6; }
   section { padding:76px 32px; display:flex; justify-content:center; }
-@media (max-width:768px){nav{flex-wrap:wrap!important;justify-content:center!important;gap:10px 14px!important;padding:12px 16px!important}nav>div{width:100%;gap:10px 16px!important;justify-content:center!important}nav>div a{font-size:13px!important}nav>div a:last-child{padding:9px 18px!important}}
+nav>label.hamburger{display:none}@media (max-width:768px){nav{flex-wrap:wrap!important}nav>label.hamburger{display:flex;flex-direction:column;gap:5px;width:46px;height:46px;flex-shrink:0;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.14);border-radius:8px;align-items:center;justify-content:center;cursor:pointer}nav>label.hamburger span{display:block;width:18px;height:2px;background:#fff;border-radius:2px}nav>div{display:none!important;width:100%;flex-direction:column!important;gap:0!important;align-items:stretch!important;justify-content:flex-start!important;padding-top:6px}#navtoggle:checked~div{display:flex!important}nav>div a{font-size:16px!important;padding:14px 4px!important;border-bottom:1px solid rgba(255,255,255,0.08)}nav>div a:last-child{border-bottom:none!important}nav>div a.navcta{background:none!important;color:#E8EEFC!important;padding:14px 4px!important;border-radius:0!important}}
 </style>
 <script type="application/ld+json">
 {
@@ -91,7 +91,9 @@
       <span style="font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#7FA0F2;margin-top:3px">Pro Training</span>
     </span>
   </a>
-  <div style="display:flex;align-items:center;gap:26px;flex-wrap:wrap;justify-content:flex-end">
+  <input type="checkbox" id="navtoggle" hidden>
+    <label for="navtoggle" class="hamburger" aria-label="Menu"><span></span><span></span><span></span></label>
+    <div style="display:flex;align-items:center;gap:26px;flex-wrap:wrap;justify-content:flex-end">
     <a href="/#programs" class="navlink">Programs</a>
     <a href="/#about" class="navlink">About</a>
     <a href="/#faq" class="navlink">FAQ</a>
