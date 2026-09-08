@@ -161,6 +161,14 @@
       "@type": "Answer",
       "text": "The first session is an evaluation. Dylan assesses technical ability, athleticism, and game understanding, then builds a training plan around clear goals."
      }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you help players prepare for club tryouts, ECNL, or MLS Next?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Sessions can be tailored to club tryout preparation and to players competing at ECNL, MLS Next, and high-school varsity levels — sharpening the technical skills, speed of play, and decision-making those levels demand."
+     }
     }
    ]
   }
@@ -204,7 +212,7 @@
     <div style="flex:1 1 420px;min-width:300px">
       <p style="margin:0 0 14px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#7FA0F2">South Orange County · Private Soccer Training</p>
       <h1 style="margin:0;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:clamp(44px,6vw,72px);line-height:1.02;text-transform:uppercase;letter-spacing:0.01em">Train with purpose.<br>Play with confidence.</h1>
-      <p style="margin:20px 0 32px;font-size:18px;line-height:1.6;color:#C8D4F2;max-width:520px;text-wrap:pretty">Individual and small-group soccer training for youth and high school players. Every session is built around your game — technical skill, decision-making, and the habits that carry onto the field.</p>
+      <p style="margin:20px 0 32px;font-size:18px;line-height:1.6;color:#C8D4F2;max-width:520px;text-wrap:pretty">Individual and small-group soccer training for youth, high school, and competitive-pathway players — from club tryout prep to ECNL, MLS Next, and high-school varsity. Every session is built around your game: technical skill, decision-making, and the habits that carry onto the field.</p>
       <div style="display:flex;gap:14px;flex-wrap:wrap">
         <a href="#book" style="background:#1A4FD6;color:#fff;padding:15px 30px;border-radius:6px;font-weight:700;font-size:16px;letter-spacing:0.05em;text-transform:uppercase" style-hover="background:#2A5FEA;color:#fff">Book a Session</a>
         <a href="#onboard" style="border:2px solid rgba(255,255,255,0.35);color:#fff;padding:13px 28px;border-radius:6px;font-weight:700;font-size:16px;letter-spacing:0.05em;text-transform:uppercase" style-hover="border-color:#fff;color:#fff">New Client Intake</a>
@@ -224,12 +232,12 @@
       <div style="background:#fff;border:1px solid #E2E8F6;border-radius:10px;padding:32px 28px;box-shadow:0 2px 8px rgba(7,19,49,0.05)">
         <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#1A4FD6">1-on-1</p>
         <h3 style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;text-transform:uppercase;color:#071331">Private Training</h3>
-        <p style="margin:0;font-size:15px;line-height:1.6;color:#46587F">A fully individualized session plan targeting your technical weaknesses and building on your strengths. First touch, finishing, ball mastery, speed of play.</p>
+        <p style="margin:0;font-size:15px;line-height:1.6;color:#46587F">A fully individualized session plan targeting your technical weaknesses and building on your strengths — first touch, finishing, ball mastery, and speed of play, with focused preparation for club tryouts, ECNL/MLS Next, and high-school varsity.</p>
       </div>
       <div style="background:#fff;border:1px solid #E2E8F6;border-radius:10px;padding:32px 28px;box-shadow:0 2px 8px rgba(7,19,49,0.05)">
         <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#1A4FD6">2–6 Players</p>
         <h3 style="margin:0 0 12px;font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:700;text-transform:uppercase;color:#071331">Small Group</h3>
-        <p style="margin:0;font-size:15px;line-height:1.6;color:#46587F">Competitive, game-realistic reps with players at a similar level. Train with teammates or friends and push each other every session.</p>
+        <p style="margin:0;font-size:15px;line-height:1.6;color:#46587F">Competitive, game-realistic reps with players at a similar level — from developing club players to ECNL and MLS Next. Train with teammates or friends and push each other every session.</p>
       </div>
     </div>
   </div>
@@ -399,7 +407,8 @@ class Component extends DCLogic {
       { q: "Where do sessions take place?", a: "Dylan trains at public fields throughout South Orange County. The exact field is confirmed when you book, based on availability and your location." },
       { q: "What ages do you work with?", a: "Youth players through high school, roughly ages 6 to 18. Sessions and expectations are adjusted to the player's age and level." },
       { q: "What should my player bring?", a: "Cleats, shin guards, a ball, and water. Everything else — cones, goals, training equipment — is provided." },
-      { q: "How does the first session work?", a: "The first session is an evaluation. Dylan assesses technical ability, athleticism, and game understanding, then builds a training plan around clear goals." }
+      { q: "How does the first session work?", a: "The first session is an evaluation. Dylan assesses technical ability, athleticism, and game understanding, then builds a training plan around clear goals." },
+      { q: "Do you help players prepare for club tryouts, ECNL, or MLS Next?", a: "Yes. Sessions can be tailored to club tryout preparation and to players competing at ECNL, MLS Next, and high-school varsity levels — sharpening the technical skills, speed of play, and decision-making those levels demand." }
     ];
     const accent = "#1A4FD6";
     const setField = (key) => (e) => {
