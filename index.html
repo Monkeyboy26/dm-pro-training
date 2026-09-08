@@ -18,6 +18,155 @@
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script src="./support.js"></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": [
+    "LocalBusiness",
+    "SportsActivityLocation"
+   ],
+   "@id": "https://dmprotraining.com/#business",
+   "name": "Dylan Morrone Pro Training",
+   "url": "https://dmprotraining.com/",
+   "image": "https://dmprotraining.com/uploads/Soccer%20Training%20Logo.png",
+   "logo": "https://dmprotraining.com/uploads/Soccer%20Training%20Logo.png",
+   "description": "Private and small-group soccer training for youth and high school players in South Orange County, CA.",
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Mission Viejo"
+    },
+    {
+     "@type": "City",
+     "name": "Ladera Ranch"
+    },
+    {
+     "@type": "City",
+     "name": "San Juan Capistrano"
+    },
+    {
+     "@type": "City",
+     "name": "Aliso Viejo"
+    },
+    {
+     "@type": "City",
+     "name": "Rancho Santa Margarita"
+    },
+    {
+     "@type": "City",
+     "name": "Laguna Niguel"
+    },
+    {
+     "@type": "City",
+     "name": "Dana Point"
+    },
+    {
+     "@type": "City",
+     "name": "Lake Forest"
+    },
+    {
+     "@type": "City",
+     "name": "Coto de Caza"
+    }
+   ],
+   "founder": {
+    "@id": "https://dmprotraining.com/#dylan"
+   },
+   "employee": {
+    "@id": "https://dmprotraining.com/#dylan"
+   },
+   "sport": "Soccer",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Training Programs",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Private Training",
+       "description": "1-on-1 individualized soccer training."
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Small Group Training",
+       "description": "Competitive small-group soccer training for 2–6 players."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@type": "Person",
+   "@id": "https://dmprotraining.com/#dylan",
+   "name": "Dylan Morrone",
+   "jobTitle": "Professional Soccer Trainer",
+   "image": "https://dmprotraining.com/uploads/Trainer%20Headshot.png",
+   "description": "Former semi-professional soccer player (CD Tineo, CSD Arzúa) and Paolo Rossi Academy trainee, now a professional soccer trainer in South Orange County.",
+   "worksFor": {
+    "@id": "https://dmprotraining.com/#business"
+   },
+   "alumniOf": [
+    {
+     "@type": "SportsOrganization",
+     "name": "Paolo Rossi Academy"
+    },
+    {
+     "@type": "SportsTeam",
+     "name": "CD Tineo"
+    },
+    {
+     "@type": "SportsTeam",
+     "name": "CSD Arzúa"
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://dmprotraining.com/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Where do sessions take place?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dylan trains at public fields throughout South Orange County. The exact field is confirmed when you book, based on availability and your location."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What ages do you work with?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Youth players through high school, roughly ages 6 to 18. Sessions and expectations are adjusted to the player's age and level."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What should my player bring?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Cleats, shin guards, a ball, and water. Everything else — cones, goals, training equipment — is provided."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How does the first session work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The first session is an evaluation. Dylan assesses technical ability, athleticism, and game understanding, then builds a training plan around clear goals."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
 </head>
 <body>
 <x-dc>
@@ -36,7 +185,7 @@
 
 <nav style="position:sticky;top:0;z-index:50;background:#071331;display:flex;align-items:center;justify-content:space-between;padding:14px 32px;gap:24px;border-bottom:1px solid rgba(255,255,255,0.08)">
   <a href="#top" style="display:flex;align-items:center;gap:12px;color:#fff">
-    <img src="uploads/Soccer Training Logo.png" alt="DM logo" style="height:44px;width:auto">
+    <img src="uploads/Soccer Training Logo.png" alt="Dylan Morrone Pro Training logo" style="height:44px;width:auto">
     <span style="display:flex;flex-direction:column;line-height:1">
       <span style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:20px;letter-spacing:0.06em;text-transform:uppercase">Dylan Morrone</span>
       <span style="font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:#7FA0F2;margin-top:3px">Pro Training</span>
@@ -70,7 +219,7 @@
 <section id="programs" style="padding:80px 32px;display:flex;justify-content:center">
   <div style="max-width:1080px;width:100%">
     <p style="margin:0 0 10px;font-size:13px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:#1A4FD6">Programs</p>
-    <h2 style="margin:0 0 40px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase;color:#071331">Training built for every level</h2>
+    <h2 style="margin:0 0 40px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:42px;text-transform:uppercase;color:#071331">Soccer training built for every level</h2>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px">
       <div style="background:#fff;border:1px solid #E2E8F6;border-radius:10px;padding:32px 28px;box-shadow:0 2px 8px rgba(7,19,49,0.05)">
         <p style="margin:0 0 6px;font-size:12px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;color:#1A4FD6">1-on-1</p>
@@ -90,7 +239,7 @@
   <div style="display:flex;align-items:flex-start;gap:56px;max-width:1080px;width:100%;flex-wrap:wrap;justify-content:center">
     <div style="flex:0 1 360px;min-width:280px">
       <div style="background:linear-gradient(160deg,#0B2158,#1A4FD6);border-radius:12px;padding:18px 18px 0;overflow:hidden">
-        <img src="uploads/Trainer Headshot.png" alt="Dylan Morrone" style="width:100%;height:auto;display:block">
+        <img src="uploads/Trainer Headshot.png" alt="Dylan Morrone, professional soccer trainer in South Orange County" style="width:100%;height:auto;display:block">
       </div>
     </div>
     <div style="flex:1 1 420px;min-width:300px">
@@ -224,7 +373,7 @@
       <a href="#programs" style="color:#C8D4F2;font-size:14px" style-hover="color:#fff">Programs</a>
       <a href="#about" style="color:#C8D4F2;font-size:14px" style-hover="color:#fff">About</a>
       <a href="#book" style="color:#C8D4F2;font-size:14px" style-hover="color:#fff">Book</a>
-      <span style="font-size:14px;color:#7FA0F2">dmprotraining.com · South Orange County, CA</span>
+      <span style="font-size:14px;color:#7FA0F2">Serving Mission Viejo, Ladera Ranch, San Juan Capistrano, Aliso Viejo, Rancho Santa Margarita, Laguna Niguel, Dana Point &amp; South Orange County, CA</span>
     </div>
   </div>
 </footer>
